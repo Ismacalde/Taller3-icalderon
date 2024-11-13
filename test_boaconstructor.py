@@ -35,7 +35,7 @@ class TestBoaConstrictor(unittest.TestCase):
 
     def test_alimentar(self):
     # Verificar que el contador de ratones aumenta y lanza un error al llegar a 10
-        for _ in range(10):
+        for _ in range(20):
            self.boa.agregar_raton()
         with self.assertRaises(ValueError) as context:
             self.boa.agregar_raton()

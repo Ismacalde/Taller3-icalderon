@@ -19,7 +19,7 @@ class BoaConstrictor(AnimalExotico):
 
     def agregar_raton(self) -> None:
         """ Incrementa la cuenta de ratones comidos por la boa constrictor. """
-        if self._ratones_comidos >= 10:
+        if self._ratones_comidos >= 20:
             raise ValueError("Demasiados Ratones!")
         self._ratones_comidos += 1
 
